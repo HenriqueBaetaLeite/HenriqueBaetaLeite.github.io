@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: orange;
+    text-align: center;
+}    
+
+
+/*formatação de imagens com legenda*/
+
+figure.foto_legenda {
+    position: relative;
+    border: 6px solid whitesmoke;
+    box-shadow: 2px 2px 6px black;
+}
+
+
+figure.foto_legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color:rgba(0,0,0, 0.6);
+    color: white;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+figure.foto_legenda:hover figcaption {
+    opacity: 1;
+}
