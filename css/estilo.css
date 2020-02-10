@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30pt;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color: unset;
+}
+
+a:visited {
+    color: wheat;
+}
+
 body {
     background-color: orange;
     text-align: center;
+    border: orangered;
 }    
 
 
