@@ -1,48 +1,76 @@
-@charset "UTF-8";
+body {
+    background-color: #ffb121;
+    text-align: center;
+    margin: 0;    
+} 
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+#title {
+    text-align: center;
+    font-family: 'Courier New', Courier;
     font-size: 30pt;
+    color: whitesmoke;
+    text-shadow: 1px 1px 4px black;    
+    padding: 0;
+}
+h2 {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
 
+#fixxo {
+    background-color: rgba(226, 117, 44, 0.8);
+    text-align: center;
+    width: 100%;
+}
+
+#menu {
+    
+}
+
+#minha_descrição {    
+    padding: 10px;
+    display: flex;
+}
+
+#habilidades {
+    display: inline-block;
+}
+
+.alinhamento {    
+    width: 220px;
+    margin: auto;
+      
+}
+/*deixa a borda "arredondada"*/
+.pics {
+    border-radius: 20%;
+}
+/* modifica os links, ao passar o mouse sobre ele o sublinhado some*/
 a:hover {
     text-decoration: none;
 }
-
 a:link {
     color: unset;
 }
-
 a:visited {
-    color: wheat;
+    color: black;
 }
-
-body {
-    background-color: orange;
-    text-align: center;
-    border: orangered;
-}    
-
-
-/*formatação de imagens com legenda*/
-
-figure.foto_legenda {
-    position: relative;
-    border: 6px solid whitesmoke;
-    box-shadow: 2px 2px 6px black;
-}
-
-
 figure.foto_legenda figcaption {
     opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color:rgba(0,0,0, 0.6);
-    color: white;
-    box-sizing: border-box;
+    position: relative;    
+    color: white;    
+    box-sizing: content-box;
     transition: 1s;
+    width: fit-content;
+    border: 2px black;
+    margin: 0 auto;
 }
-
 figure.foto_legenda:hover figcaption {
     opacity: 1;
+}
+
+#rodape {    
+    text-shadow: 1px 1px 1px black;
+    text-decoration: overline;
 }
