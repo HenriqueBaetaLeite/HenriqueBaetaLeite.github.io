@@ -31,11 +31,6 @@ h2 {
     transition-duration: 2s;
 }
 
-h2:hover {
-    text-decoration: overline;
-    transition: rotate(180deg);
-}
-
 .main {    
     background-color: rgb(15, 163, 107);
     padding: 10px;    
